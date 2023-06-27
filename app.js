@@ -10,14 +10,17 @@ app.get('/',(req, res)=>{
     //res.send(publicPath)
 })
 
+app.get('/home',(req, res)=>{
+    res.sendFile(path.join(__dirname,"views/home.html"))
+    //res.send(publicPath)
+})
+
 app.get('/register',(req, res)=>{
     res.sendFile(path.join(__dirname,"views/register.html"))
-    //res.send(publicPath)
 })
 
 app.get('/login',(req, res)=>{
     res.sendFile(path.join(__dirname,"views/login.html"))
-    //res.send(publicPath)
 })
 
-app.listen(3000)
+app.listen(3000,()=> console.log("Escuchando en http://localhost:3000"))
