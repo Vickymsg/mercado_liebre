@@ -73,6 +73,7 @@ header {
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+    font: "Ubuntu";
 }
 
 .search-bar {
