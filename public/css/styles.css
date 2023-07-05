@@ -244,6 +244,7 @@ footer i {
 .control {
     width: 100%;
     padding: 8px;
+    font-size: 16px;
 }
 
 .boton-formulario {
@@ -282,6 +283,7 @@ footer i {
     width: 100%;
     padding: 8px;
     border: 1px solid black;
+    font-size: 16px;
 }
 
 @media (min-width:361px) {

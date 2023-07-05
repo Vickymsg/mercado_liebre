@@ -47,10 +47,10 @@
     <form action="/login" method="POST" class="create-login">
         <section class="form-login">
         <div class="control-login">
-            <input type="text" name="usuario" class="login" placeholder="Nombre de usuario">
+            <input type="text" name="usuario" class="login" placeholder="Nombre de usuario" required>
         </div>
         <div class="control-login">
-            <input type="password" name="contraseña" class="login" placeholder="Elegí tu contraseña">
+            <input type="password" name="contraseña" class="login" placeholder="Elegí tu contraseña" required minlength="8">
         </div>
         <button type="submit" class="boton-formulario">Enviar</button>
     </section>
